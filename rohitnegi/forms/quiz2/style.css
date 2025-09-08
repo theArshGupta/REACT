@@ -1,0 +1,33 @@
+body {
+    background-color: #212121;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;  /* full height to center vertically */
+}
+
+.container {
+    border: 3px solid wheat;
+    padding: 20px 30px;   /* spacing inside */
+    border-radius: 10px;  /* smooth corners */
+    background-color: #2e2e2e; /* slight contrast with body */
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5); /* add some depth */
+    text-align: center; /* center text inside */
+    padding: 30px;
+}
+button{
+    /* margin: 20px; */
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(150, 150, 217);
+}
+button:hover{
+    background: #e68900;;
+}
+
